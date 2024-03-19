@@ -510,7 +510,7 @@ color: #f4f4fd;
     
 }
 .footer-logo {
-    padding-right: 120px;
+    margin-right: 120px
 }
 .footer-contacts-text {
     font-weight: 500;
@@ -519,10 +519,11 @@ color: #f4f4fd;
         letter-spacing: 0.02em;
         color: #fff;
         margin-bottom: 16px;
-}.footer-list {
+}.footer-item-icon {
+gap: 16px;
 
 }
 
-.footer-hover:hover {
+.footer-item-link:hover {
     background-color: #31D0AA;
 }
