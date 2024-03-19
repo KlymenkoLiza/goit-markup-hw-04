@@ -487,7 +487,7 @@ font-weight: 700;
         text-transform: uppercase;
         color: #4d5ae5;
         display: inline-block;
-        margin-bottom: 16px;
+        /* margin-bottom: 16px; ? */
 }
 .footer-link-span{
     
@@ -501,6 +501,9 @@ color: #f4f4fd;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        margin-bottom: 16px;
+        /* ? */
+        
 }
 
 .footer-info {
