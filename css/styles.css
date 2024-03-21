@@ -8,17 +8,28 @@ body {
 }
 
 
-ul {
+ul li {
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    padding-top: 0;
+        padding-left: 0;
 }
+
+    /* li {
+            margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 0;
+                padding-left: 0;
+    } */
+
 a {
     text-decoration: none;
     color: currentColor;
 }
-h1 h2 h3 h4 h5 h6 p {
+
+h1,h2,h3,h4,h5,h6,p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -436,6 +447,8 @@ font-size: 16px;
     padding-top: 40px;
     transform: translateY(100%);
     padding: 40px 32px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
